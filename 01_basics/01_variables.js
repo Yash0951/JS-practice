@@ -11,7 +11,7 @@ accountEmail = "hc@hc.com"
 accountPassword = "21212121"
 accountCity = "Bengaluru"
 
-console.log(accountId);
+console.log(typeof accountEmail);
 
 /*
 Prefer not to use var
@@ -19,4 +19,4 @@ because of issue in block scope and functional scope
 */
 
 
-console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
+// console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
